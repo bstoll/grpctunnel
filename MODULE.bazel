@@ -1,6 +1,7 @@
 module(
     name = "openconfig_grpctunnel",
     version = "0.0.0",
+    repo_name = "com_github_openconfig_grpctunnel"
 )
 
 bazel_dep(name = "gazelle", version = "0.41.0", repo_name = "bazel_gazelle")
