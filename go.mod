@@ -1,19 +1,18 @@
 module github.com/openconfig/grpctunnel
 
-go 1.20
+go 1.23.4
 
 require (
-	github.com/cenkalti/backoff/v4 v4.1.1
-	github.com/openconfig/gnmi v0.10.0
-	google.golang.org/grpc v1.51.0-dev
-	google.golang.org/protobuf v1.28.1
+	github.com/cenkalti/backoff/v4 v4.3.0
+	github.com/openconfig/gnmi v0.13.0
+	google.golang.org/grpc v1.69.2
+	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.5.1
+	google.golang.org/protobuf v1.36.2
 )
 
 require (
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
-	google.golang.org/genproto v0.0.0-20221024183307-1bc688fe9f3e // indirect
+	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250106144421-5f5ef82da422 // indirect
 )
